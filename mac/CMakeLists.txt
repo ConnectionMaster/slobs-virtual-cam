@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.22...3.25)
 
-legacy_check()
-
 find_package(FFmpeg REQUIRED COMPONENTS avcodec avdevice avutil avformat)
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
